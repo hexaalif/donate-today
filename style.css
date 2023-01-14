@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.hero {
+    position: relative; /* Add this*/
+    background-image: url('./images/donation2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .overlay { /* Add this*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 40, 40, 0.647);
+    z-index: 1;
+  }
+  
+  
+
+  .hero-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1{
+    font-size: 60px;
+    color: rgb(255, 174, 68);
+    margin-top: 10%;
+  }
+  .hero-content p{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+
+  .orange-btn {
+    background-color: orange; /* sets the background color to orange */
+    color: white; /* sets the text color to white */
+    padding: 10px 20px; /* adds padding to the button */
+    border-radius: 5px; /* adds rounded corners to the button */
+    border: none; /* removes the default border */
+    font-size: 18px; /* sets the font size of the text */
+    cursor: pointer; /* changes the cursor to a pointer when hovering over the button */
+  }
+  /* This will create a button with a background color of orange, white text, rounded corners, and padding. You can adjust the properties, such as the padding, border-radius, font-size, etc to your liking.
+  You can also add hover effect to the button by using :hover
+  
+  Copy code */
+  .orange-btn:hover {
+    background-color: dark
+  }
+  .one{
+    background-color: blanchedalmond;
+  }
+
+  .one:hover{
+    background-color: orange;
+  }
+
+  .card {
+    width: 300px; /* sets the width of the card */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* adds a shadow to the card */
+    border-radius: 10px; /* adds rounded corners to the card */
+    overflow: hidden; /* hides overflow */
+  }
+  
+  .card img {
+    width: 100%; /* makes the image fill the width of the card */
+  }
+  
+  .card-content {
+    padding: 20px; /* adds padding to the card content */
+  }
+  
+  
